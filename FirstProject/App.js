@@ -1,5 +1,5 @@
-import React, {useState } from 'react';
-import { Text, View, TextInput, Image} from 'react-native';
+import React, {useState} from 'react';
+import { Text, View, TextInput, Image, Button} from 'react-native';
 
 const getFullName = (firstName, lastName) => {
   return firstName + " " + lastName;
@@ -7,14 +7,14 @@ const getFullName = (firstName, lastName) => {
 
 // Child Component
 const Cat = (props) => {
-  const [isHappy, setIsHappy] = useState(true);
+  const [isSad, setIsHappy] = useState(true);
   return ( 
     <View>
-      <Text>Hello, I am {props.name}! I am feeling {isHappy ? "happy" : "sad"}</Text>
+      <Text>Hello, I am {props.name}! I am feeling {isSad ? "sad" : "happy"}</Text>
       <Button 
       onPress={() => {setIsHappy(false);}}
-      disabled={!isHappy}
-      title={isHappy ? "Make me happy again please!" : "Thank you!" }/>
+      disabled={!isSad}
+      title={isSad ? "Make me happy again please!" : "Thank you!" }/>
       <TextInput style={{
         height: 25,
         borderColor: 'gray',
