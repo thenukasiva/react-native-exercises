@@ -1,4 +1,4 @@
-# Learning React-Native
+# learning react-native! 
 
 ## First Project - The Basics
 - [x] Setting up local dev environment with https://reactnative.dev/docs/environment-setup
