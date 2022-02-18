@@ -7,3 +7,4 @@
 - [ ] Handling Text Input
 - [ ] Using a ScrollView
 - [ ] Using List Views
+- [ ] Troubleshooting (and rest of basics)
