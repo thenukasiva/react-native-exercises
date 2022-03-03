@@ -5,6 +5,6 @@
 - [x] Core Components + Native Components
 - [x] React Fundamentals
 - [x] Handling Text Input
-- [ ] Using a ScrollView
+- [x] Using a ScrollView
 - [ ] Using List Views
 - [ ] Troubleshooting (and rest of basics)
