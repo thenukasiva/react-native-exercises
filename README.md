@@ -6,5 +6,5 @@
 - [x] React Fundamentals
 - [x] Handling Text Input
 - [x] Using a ScrollView
-- [x] Using List Views
-- [ ] Troubleshooting (and rest of basics)
+- [x] Using List View 
+- [x] Troubleshooting (and rest of basics)
