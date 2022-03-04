@@ -1,6 +1,6 @@
 # learning react-native! 
 
-## First Project - The Basics
+## Basics
 - [x] Setting up local dev environment with https://reactnative.dev/docs/environment-setup
 - [x] Core Components + Native Components
 - [x] React Fundamentals
