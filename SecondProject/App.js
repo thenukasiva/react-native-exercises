@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, TextInput, View, ScrollView } from 'react-native';
+import { Text, TextInput, View, ScrollView, FlatList } from 'react-native';
 
 const PizzaTranslator = () => {
   const [text, setText] = useState('');
@@ -39,8 +39,24 @@ const PizzaTranslator = () => {
       <Text style={{padding: 10, fontSize: 42}}>
         {text.split(' ').map((word) => word && '🍕').join(' ')}
       </Text>
+      <FlatList
+        data={[
+          {key: 'Devin'},
+          {key: 'Dan'},
+          {key: 'Dominic'},
+          {key: 'Jackson'},
+          {key: 'James'},
+          {key: 'Joel'},
+          {key: 'John'},
+          {key: 'Jillian'},
+          {key: 'Jimmy'},
+          {key: 'Julie'},
+        ]}
+        renderItem={({item}) => <Text>{item.key}</Text>}
+      />
     </View>
     </ScrollView>
+  
   );
 }
 
